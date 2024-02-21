@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:my_wheater_app/counter/counter.dart';
+
+import 'package:my_wheater_app/features/wheater/presentation/pages/home_page.dart';
 import 'package:my_wheater_app/l10n/l10n.dart';
 
 class App extends StatelessWidget {
@@ -16,7 +17,7 @@ class App extends StatelessWidget {
       ),
       localizationsDelegates: AppLocalizations.localizationsDelegates,
       supportedLocales: AppLocalizations.supportedLocales,
-      home: const CounterPage(),
+      home: const HomePage(),
     );
   }
 }
