@@ -64,6 +64,8 @@ class _HomePageState extends State<HomePage> {
       // _getLocation();
     }
 
+    // _listenLocationStream();
+
     return true;
   }
 
@@ -130,7 +132,7 @@ class _HomePageState extends State<HomePage> {
 
   @override
   void initState() {
-    _checkAndRequestPermission();
+    // _checkAndRequestPermission();
     _listenLocationStream();
 
     super.initState();
